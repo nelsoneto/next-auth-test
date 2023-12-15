@@ -27,8 +27,6 @@ export default async function Admin() {
       <h2>Cod usuário:{session?.codigoUsuario}</h2>
 
       <p>{JSON.stringify(user, null)}</p>
-      <p>{JSON.stringify(user, null)}</p>
-      <p>{JSON.stringify(user, null)}</p>
 
       <ButtonLogout />
     </div>
